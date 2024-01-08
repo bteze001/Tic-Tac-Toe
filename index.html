@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Tic Tac Toe</title>
+    <script src="https://cdn.jsdelivr.net/emojione/2.2.7/lib/js/emojione.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title"> Tic-Tac-Toe </h1>
+        <div class="containerBox">
+            <div class="boxes">
+                <div id="box1" onclick="cellClick(cell1)"></div>
+                <div id="box2" onclick="cellClick(cell2)"></div>
+                <div id="box3" onclick="cellClick(cell3)"></div>
+                <div id="box4" onclick="cellClick(cell4)"></div>
+                <div id="box5" onclick="cellClick(cell5)"></div>
+                <div id="box6" onclick="cellClick(cell6)"></div>
+                <div id="box7" onclick="cellClick(cell7)"></div>
+                <div id="box8" onclick="cellClick(cell8)"></div>
+                <div id="box9" onclick="cellClick(cell9)"></div>
+            </div>
+        </div>
+        <div class="restart">
+            <button id="restart" onclick="restartGame()"> Restart </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
